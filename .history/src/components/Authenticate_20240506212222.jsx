@@ -7,8 +7,8 @@ const Authenticate = () =>
         <div>
             <h2>Authenticate</h2>
         </div>
-    );
-};
+    )
+}
 
 
 
