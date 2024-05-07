@@ -1,6 +1,5 @@
 import React form 'react';
-import SignUpForm from './components/SignUpForm';
-import Authenticate from './components/Authenticate';
+import SignUpForm from
 import './App.css';
 
 

@@ -1,6 +1,4 @@
 import React form 'react';
-import SignUpForm from './components/SignUpForm';
-import Authenticate from './components/Authenticate';
 import './App.css';
 
 
@@ -11,11 +9,10 @@ function App() {
     <>
       <div>
         <nav>NavBar</nav>
-        <signUpForm />
-        <Authenticate />
+        <sign
       </div>
     </>
-  );
-};
+  )
+}
 
-export default App;
+export default App

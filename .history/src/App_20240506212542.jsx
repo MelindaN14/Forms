@@ -1,6 +1,4 @@
 import React form 'react';
-import SignUpForm from './components/SignUpForm';
-import Authenticate from './components/Authenticate';
 import './App.css';
 
 
@@ -18,4 +16,4 @@ function App() {
   );
 };
 
-export default App;
+export default App
