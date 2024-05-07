@@ -6,20 +6,20 @@ const signUpForm = () => {
     const [password, setPassword] = useState("");
     const [error, setError] = useSate(null);
 
-    const
+    const 
+
+
+
+
 }
-
-
-
 export default 'Authenticate';
 return (
      <>
-        <form onSubmit = {handleSubmit}>
+        <form onSubmit={handleSubmit}>
             <label>
-           Username:
+            Sign Up Form
             </label>
-            <input type='text' name="username" value={formState.username}
-                onChange={handleChange}
+            <h2>Authenticate</h2>
         </form>
-        )
+        );
     </>

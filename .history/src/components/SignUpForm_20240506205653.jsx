@@ -16,10 +16,9 @@ return (
      <>
         <form onSubmit = {handleSubmit}>
             <label>
-           Username:
+            Sign Up Form
             </label>
-            <input type='text' name="username" value={formState.username}
-                onChange={handleChange}
+            <h2>Authenticate</h2>
         </form>
         )
     </>

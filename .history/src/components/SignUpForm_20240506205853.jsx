@@ -19,7 +19,7 @@ return (
            Username:
             </label>
             <input type='text' name="username" value={formState.username}
-                onChange={handleChange}
+            onChange
         </form>
         )
     </>
