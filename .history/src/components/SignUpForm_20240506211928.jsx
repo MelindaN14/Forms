@@ -31,7 +31,7 @@ const handleSubmit = (e) =>
     console.log(formState);
 };
 
-
+export default 'Authenticate';
 return (
      <>
         <form onSubmit = {handleSubmit}>
@@ -48,5 +48,3 @@ return (
         </form>
         );
     </>
-//     export default 'Authenticate';
-// export default 'SignUpForm';

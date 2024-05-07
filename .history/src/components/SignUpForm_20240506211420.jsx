@@ -28,10 +28,10 @@ const signUpForm = () =>
 const handleSubmit = (e) =>
 {
     e.preventDefault();
-    console.log(formState);
-};
+    console.log9ormState
+}
 
-
+export default 'Authenticate';
 return (
      <>
         <form onSubmit = {handleSubmit}>
@@ -39,14 +39,7 @@ return (
            username:
             </label>
             <input type='text' name="username" value={formState.username}
-                onChange={handleChange} />
-            <label>
-                password:
-            </label>
-            <input type='text' name='password' value={formState.password} 
-            onChange = {handleChange} />
+                onChange={handleChange}
         </form>
-        );
+        )
     </>
-//     export default 'Authenticate';
-// export default 'SignUpForm';

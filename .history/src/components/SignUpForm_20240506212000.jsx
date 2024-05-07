@@ -48,5 +48,5 @@ return (
         </form>
         );
     </>
-//     export default 'Authenticate';
-// export default 'SignUpForm';
+    export default 'Authenticate';
+    export default 

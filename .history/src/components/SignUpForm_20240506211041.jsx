@@ -7,31 +7,20 @@ function MultiForm ()
         username: '',
         password: ''
     });
-};
+}
 
-const handleChange = (e) =>
-{
-    setFormState({
-        ...formState, [e.target.name]: e.target.value
-    });
-};
+const handleChange = (e)
 
-const signUpForm = () =>
-{
+const signUpForm = () => {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useSate(null);
 
     const
-};
-
-const handleSubmit = (e) =>
-{
-    e.preventDefault();
-    console.log(formState);
-};
+}
 
 
+export default 'Authenticate';
 return (
      <>
         <form onSubmit = {handleSubmit}>
@@ -39,14 +28,7 @@ return (
            username:
             </label>
             <input type='text' name="username" value={formState.username}
-                onChange={handleChange} />
-            <label>
-                password:
-            </label>
-            <input type='text' name='password' value={formState.password} 
-            onChange = {handleChange} />
+                onChange={handleChange}
         </form>
-        );
+        )
     </>
-//     export default 'Authenticate';
-// export default 'SignUpForm';

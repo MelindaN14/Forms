@@ -31,7 +31,7 @@ const handleSubmit = (e) =>
     console.log(formState);
 };
 
-
+export default 'Authenticate';
 return (
      <>
         <form onSubmit = {handleSubmit}>
@@ -40,13 +40,7 @@ return (
             </label>
             <input type='text' name="username" value={formState.username}
                 onChange={handleChange} />
-            <label>
-                password:
-            </label>
-            <input type='text' name='password' value={formState.password} 
-            onChange = {handleChange} />
+            <
         </form>
-        );
+        )
     </>
-//     export default 'Authenticate';
-// export default 'SignUpForm';
