@@ -50,4 +50,4 @@ return (
     </>
 //     export default 'Authenticate';
 // export default 'SignUpForm';
-export default MultiForm;
+export default MultiForm
